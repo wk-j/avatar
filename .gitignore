@@ -1,0 +1,14 @@
+.DS_Store
+
+node_modules
+dist
+.cache
+
+bin
+obj
+packages
+tools
+
+.paket
+output
+publish

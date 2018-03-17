@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <ToolCommandName>wk-avatar</ToolCommandName>
+    <PackAsTool>true</PackAsTool>
+    <OutputType>Exe</OutputType>
+    <PackageId>wk.Avatar</PackageId>
+    <Version>0.1.0</Version>
+    <LangVersion>7.2</LangVersion>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <NETCorePlatformsImplicitPackageVersion>2.0.1</NETCorePlatformsImplicitPackageVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="SixLabors.ImageSharp.Drawing" Version="1.0.0-beta0002" />
+  </ItemGroup>
+</Project>
